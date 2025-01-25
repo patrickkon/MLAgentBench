@@ -15,8 +15,6 @@ toolz>=0.11.1
 torch>=2.0.0
 torchvision>=0.15.1
 transformers>=4.28.0
-dm-clrs @ git+git://github.com/deepmind/clrs.git
-# for gpu support https://github.com/deepmind/clrs/issues/98
 
 # images
 pillow
@@ -50,7 +48,6 @@ rouge-score
 peft
 accelerate
 evaluate
-vertaxai
 
 # graph
 torch-geometric==2.3.1
@@ -59,6 +56,5 @@ networkx
 
 
 #others
-cchardet
 pytest
 dacite
